@@ -9,7 +9,6 @@
 
     <table [dataSource]="dataSource" class="mat-elevation-z8" mat-table>
 
-
         <ng-container matColumnDef="stage">
             <mat-header-cell *matHeaderCellDef>Stage</mat-header-cell>
             <mat-cell *matCellDef="let element">{{element.stage}}</mat-cell>
@@ -18,7 +17,6 @@
         <!-- The above <ng-container> can also be written as:   -->
         <!--    <mat-text-column name="stage"></mat-text-column>-->
         <!-- That is because both the Header name and the property on which the value is located is the same -->
-
 
         <ng-container matColumnDef="process">
             <mat-header-cell *matHeaderCellDef>Process</mat-header-cell>
@@ -48,7 +46,13 @@
 
         <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
 
-        <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
 
     </table>
+
+    <mat-paginator [length]="100"
+                   [pageSize]="10"
+                   [pageSizeOptions]="[5, 10, 20]"
+                   showFirstLastButtons
+    ></mat-paginator>
+
 </div>

@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit,ViewChild} from '@angular/core';
 import dataTable from '../../../assets/json/dataSource.json';
-import {MatTableDataSource} from "@angular/material/table";
+import {MatTableDataSource, MatPaginator} from "@angular/material";
 import {ApiService} from "../../services/api/api.service";
 
 // We can Inject the ApiService here, or have the Injectable providedIn: 'root' inside the service itself
@@ -14,6 +14,7 @@ export class DatatableComponent implements OnInit {
     displayedColumns: any;
     dataSource = new MatTableDataSource(dataTable);
     apiService: ApiService;
+    @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
 
 
     constructor(apiService: ApiService) {
@@ -23,6 +24,7 @@ export class DatatableComponent implements OnInit {
     }
 
     ngOnInit() {
+        this.dataSource.paginator = this.paginator;
     }
 
     applyFilter(filterValue: string) {
