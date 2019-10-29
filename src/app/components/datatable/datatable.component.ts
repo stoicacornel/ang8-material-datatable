@@ -3,6 +3,8 @@ import dataTable from '../../../assets/json/dataSource.json';
 import {MatTableDataSource} from "@angular/material/table";
 import {ApiService} from "../../services/api/api.service";
 
+// We can Inject the ApiService here, or have the Injectable providedIn: 'root' inside the service itself
+
 @Component({
     selector: 'app-datatable',
     templateUrl: './datatable.component.html',
