@@ -1,0 +1,93 @@
+[
+	{
+		"stage": "Fabrication",
+		"process": "Sub Contract Fabrication",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Fabrication",
+		"process": "Fabrication Inspection",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Treatment",
+		"process": "Shot Blast",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Treatment",
+		"process": "Shot paint",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Final Inspection",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	},
+	{
+		"stage": "Dispatch",
+		"process": "Loading",
+		"cuttingPlan": 1234,
+		"workOrder": "WO-1",
+		"productionWorkOrderContractId": 1
+	}
+]

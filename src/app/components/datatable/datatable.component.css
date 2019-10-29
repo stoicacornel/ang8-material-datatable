@@ -1,0 +1,26 @@
+.table-container {
+    width: 90vw;
+    padding: 5vh 5vw;
+}
+
+.table-container > .title {
+    background-color: var(--main-title-background-color);
+}
+
+.table-container > table {
+    width: 90vw;
+}
+
+.table-container > .table-get {
+    display: inline-flex;
+    background-color: var(--main-theme-color);
+    color: var(--main-text-color);
+    margin: 0 5vh;
+}
+
+mat-header-cell {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--main-theme-color);
+}
+
